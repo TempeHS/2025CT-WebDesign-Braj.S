@@ -5,7 +5,6 @@ let computerGuess;
 loadDIV ();
 
 
-
 function loadDIV () {
 document.getElementById("ScriptThisDIV").innerHTML = "<H1>Hello " + enterName + "</H1>"
 document.getElementById("ScriptThisDIV").innerHTML = document.getElementById("ScriptThisDIV").innerHTML + "</H1><H2>Guess a number between 1 & 2</H2>"
