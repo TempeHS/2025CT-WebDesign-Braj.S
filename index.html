@@ -64,290 +64,329 @@
     </nav>
     <!--END TOP NAVIGATION-->
 
-    <!--START HERO SLIDER-->
-    <div class="container">
-        <div id="carouselExampleIndicators" class="carousel slide">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
+    <!--START JUMBOTRON-->
+    <main role="main">
+        <br>
+        <br>
+        <section class="jumbotron text-center">
+            <div class="container">
+                <h1 class="jumbotron-heading">Build your dreams</h1>
+                <p class="lead text-muted">Start to build your dream pc build</p>
+                <p>
+                    <a href="https://getbootstrap.com/docs/4.0/examples/album/#" class="btn btn-primary my-2"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-tools" viewBox="0 0 16 16">
+                            <path
+                                d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3q0-.405-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708M3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026z" />
+                        </svg> Build</a>
+                    <a href="https://getbootstrap.com/docs/4.0/examples/album/#" class="btn btn-secondary my-2"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-info-square" viewBox="0 0 16 16">
+                            <path
+                                d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
+                            <path
+                                d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                        </svg> Help</a>
+                </p>
+                <br>
             </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="images/pc1.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/pc2.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/pc3.webp" class="d-block w-100" alt="...">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </div>
+        </section>
+        <!--END JUMBOTRON-->
 
-    <!--END HERO SLIDER-->
-    <!-- START CARDS -->
-    <style>
-        .col,
-        .col-2,
-        .col-3,
-        .col-4,
-        .col-6,
-        .col-12,
-        .col-sm-12,
-        .col-md-6,
-        .col-lg-4 {
-            border: red 1px solid
-        }
-    </style>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="images/pcguides1.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">PC Build Guide</h5>
-                        <p class="card-text">Learn the basics about PC Building</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <!--START HERO SLIDER-->
+        <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/pc1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/pc2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/pc3.webp" class="d-block w-100" alt="...">
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="images/pcguides2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Part Picker Guide</h5>
-                        <p class="card-text">Learn how to use Part Picker, learn how to pick the best parts</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="images/pcguides3.avif" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                <div class="card" style="width: 18rem;">
-                    <img src="images/pcguides4.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's
-                            content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- END CARDS -->
-
-    <!--START ACORDIAN-->
-    <div class="accordion" id="accordionPanelsStayOpenExample">
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-                    aria-controls="panelsStayOpen-collapseOne">
-                    Accordion Item #1
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
                 </button>
-            </h2>
-            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
-                <div class="accordion-body">
-                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
-                    plugin adds the appropriate classes that we use to style each element. These classes control the
-                    overall
-                    appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                    custom CSS or overriding our default variables. It's also worth noting that just about any HTML can
-                    go
-                    within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-            </div>
-        </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                    aria-controls="panelsStayOpen-collapseTwo">
-                    Accordion Item #2
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
                 </button>
-            </h2>
-            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
-                    collapse
-                    plugin adds the appropriate classes that we use to style each element. These classes control the
-                    overall
-                    appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                    custom CSS or overriding our default variables. It's also worth noting that just about any HTML can
-                    go
-                    within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
             </div>
         </div>
-        <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
-                    aria-controls="panelsStayOpen-collapseThree">
-                    Accordion Item #3
-                </button>
-            </h2>
-            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
-                    collapse
-                    plugin adds the appropriate classes that we use to style each element. These classes control the
-                    overall
-                    appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with
-                    custom CSS or overriding our default variables. It's also worth noting that just about any HTML can
-                    go
-                    within the <code>.accordion-body</code>, though the transition does limit overflow.
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--END ACORDIAN-->
 
-    <!--START BUTTON TRIGGER MODAL-->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        Launch demo modal
-    </button>
-
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--END BUTTON TRIGGER MODAL-->
-    <!--START FOOTER-->
-    <div class="container">
-        <footer class="py-5">
+        <!--END HERO SLIDER-->
+        <!-- START CARDS -->
+        <style>
+            .col,
+            .col-2,
+            .col-3,
+            .col-4,
+            .col-6,
+            .col-12,
+            .col-sm-12,
+            .col-md-6,
+            .col-lg-4 {
+                border: red 1px solid
+            }
+        </style>
+        <div class="container">
             <div class="row">
-                <div class="col-6 col-md-2 mb-3">
-                    <h5>Section</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/footers/#"
-                                class="nav-link p-0 text-body-secondary">Home</a></li>
-                        <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/footers/#"
-                                class="nav-link p-0 text-body-secondary">Features</a></li>
-                        <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/footers/#"
-                                class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                        <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/footers/#"
-                                class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                        <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/footers/#"
-                                class="nav-link p-0 text-body-secondary">About</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-6 col-md-2 mb-3">
-                    <h5>Section</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/footers/#"
-                                class="nav-link p-0 text-body-secondary">Home</a></li>
-                        <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/footers/#"
-                                class="nav-link p-0 text-body-secondary">Features</a></li>
-                        <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/footers/#"
-                                class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                        <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/footers/#"
-                                class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                        <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/footers/#"
-                                class="nav-link p-0 text-body-secondary">About</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-6 col-md-2 mb-3">
-                    <h5>Section</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/footers/#"
-                                class="nav-link p-0 text-body-secondary">Home</a></li>
-                        <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/footers/#"
-                                class="nav-link p-0 text-body-secondary">Features</a></li>
-                        <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/footers/#"
-                                class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                        <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/footers/#"
-                                class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                        <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/footers/#"
-                                class="nav-link p-0 text-body-secondary">About</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-md-5 offset-md-1 mb-3">
-                    <form>
-                        <h5>Subscribe to our newsletter</h5>
-                        <p>Monthly digest of what's new and exciting from us.</p>
-                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                            <label for="newsletter1" class="visually-hidden">Email address</label>
-                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                            <button class="btn btn-primary" type="button">Subscribe</button>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/pcguides1.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">PC Build Guide</h5>
+                            <p class="card-text">Learn the basics about PC Building</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
-                    </form>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/pcguides2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Part Picker Guide</h5>
+                            <p class="card-text">Learn how to use Part Picker, learn how to pick the best parts</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/pcguides3.avif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's
+                                content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/pcguides4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's
+                                content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
 
-            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-                <p>© 2024 Company, Inc. All rights reserved.</p>
-                <ul class="list-unstyled d-flex">
-                    <li class="ms-3"><a class="link-body-emphasis"
-                            href="https://getbootstrap.com/docs/5.3/examples/footers/#"><svg class="bi" width="24"
-                                height="24">
-                                <use xlink:href="#twitter"></use>
-                            </svg></a></li>
-                    <li class="ms-3"><a class="link-body-emphasis"
-                            href="https://getbootstrap.com/docs/5.3/examples/footers/#"><svg class="bi" width="24"
-                                height="24">
-                                <use xlink:href="#instagram"></use>
-                            </svg></a></li>
-                    <li class="ms-3"><a class="link-body-emphasis"
-                            href="https://getbootstrap.com/docs/5.3/examples/footers/#"><svg class="bi" width="24"
-                                height="24">
-                                <use xlink:href="#facebook"></use>
-                            </svg></a></li>
-                </ul>
+        <!-- END CARDS -->
+
+        <!--START ACORDIAN-->
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        Accordion Item #1
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the
+                        collapse
+                        plugin adds the appropriate classes that we use to style each element. These classes control the
+                        overall
+                        appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                        with
+                        custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                        can
+                        go
+                        within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                </div>
             </div>
-        </footer>
-    </div>
-    <!--END FOOTER-->
-    <!--DO NOT EDIT BELOW THIS LINE-->
-    <script src="scripts.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo">
+                        Accordion Item #2
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
+                        collapse
+                        plugin adds the appropriate classes that we use to style each element. These classes control the
+                        overall
+                        appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                        with
+                        custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                        can
+                        go
+                        within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseThree">
+                        Accordion Item #3
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                        collapse
+                        plugin adds the appropriate classes that we use to style each element. These classes control the
+                        overall
+                        appearance, as well as the showing and hiding via CSS transitions. You can modify any of this
+                        with
+                        custom CSS or overriding our default variables. It's also worth noting that just about any HTML
+                        can
+                        go
+                        within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END ACORDIAN-->
+
+        <!--START BUTTON TRIGGER MODAL-->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Launch demo modal
+        </button>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--END BUTTON TRIGGER MODAL-->
+
+        <!--START FOOTER-->
+        <div class="container">
+            <footer class="py-5">
+                <div class="row">
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5>Section</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/footers/#"
+                                    class="nav-link p-0 text-body-secondary">Home</a></li>
+                            <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/footers/#"
+                                    class="nav-link p-0 text-body-secondary">Features</a></li>
+                            <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/footers/#"
+                                    class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                            <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/footers/#"
+                                    class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/footers/#"
+                                    class="nav-link p-0 text-body-secondary">About</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5>Section</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/footers/#"
+                                    class="nav-link p-0 text-body-secondary">Home</a></li>
+                            <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/footers/#"
+                                    class="nav-link p-0 text-body-secondary">Features</a></li>
+                            <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/footers/#"
+                                    class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                            <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/footers/#"
+                                    class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/footers/#"
+                                    class="nav-link p-0 text-body-secondary">About</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5>Section</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/footers/#"
+                                    class="nav-link p-0 text-body-secondary">Home</a></li>
+                            <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/footers/#"
+                                    class="nav-link p-0 text-body-secondary">Features</a></li>
+                            <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/footers/#"
+                                    class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                            <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/footers/#"
+                                    class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="https://getbootstrap.com/docs/5.3/examples/footers/#"
+                                    class="nav-link p-0 text-body-secondary">About</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-5 offset-md-1 mb-3">
+                        <form>
+                            <h5>Subscribe to our newsletter</h5>
+                            <p>Monthly digest of what's new and exciting from us.</p>
+                            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                                <label for="newsletter1" class="visually-hidden">Email address</label>
+                                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                                <button class="btn btn-primary" type="button">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                    <p>© 2024 Company, Inc. All rights reserved.</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3"><a class="link-body-emphasis"
+                                href="https://getbootstrap.com/docs/5.3/examples/footers/#"><svg class="bi" width="24"
+                                    height="24">
+                                    <use xlink:href="#twitter"></use>
+                                </svg></a></li>
+                        <li class="ms-3"><a class="link-body-emphasis"
+                                href="https://getbootstrap.com/docs/5.3/examples/footers/#"><svg class="bi" width="24"
+                                    height="24">
+                                    <use xlink:href="#instagram"></use>
+                                </svg></a></li>
+                        <li class="ms-3"><a class="link-body-emphasis"
+                                href="https://getbootstrap.com/docs/5.3/examples/footers/#"><svg class="bi" width="24"
+                                    height="24">
+                                    <use xlink:href="#facebook"></use>
+                                </svg></a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+        <!--END FOOTER-->
+        <!--DO NOT EDIT BELOW THIS LINE-->
+        <script src="scripts.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
