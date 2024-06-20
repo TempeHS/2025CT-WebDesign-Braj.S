@@ -1,0 +1,45 @@
+[
+  {
+    "id": "cpu1",
+    "name": "Intel Core i7-10700K",
+    "price": "$528.82",
+    "details": {
+      "Brand": "Intel",
+      "Manufacturer": "‎Intel",
+      "Model": "‎BX8070110700K",
+      "Model Name": "‎i7",
+      "Part Number": "‎BX8070110700K",
+      "Processor Brand": "‎Intel",
+      "Processor Speed": "‎3.8 GHz",
+      "Processor Type": "‎Intel Core i7",
+      "Processor Count": "‎8",
+      "Processor Socket": "‎LGA 1200",
+      "Processor model number": "‎99A0V7",
+      "Compatible Devices": "‎PC",
+      "Number of items": "‎1",
+      "Wattage": "‎125 watts",
+      "Batteries Included": "‎No",
+      "Batteries Required": "‎No",
+      "Does it contain liquid?": "‎No",
+      "Has Auto Focus": "‎No",
+      "Has Programmable Buttons": "‎No",
+      "Product dimensions": "‎18 x 16 x 10 cm; 45.36 Grams",
+      "Item Weight": "‎45.4 g",
+      "ASIN": "‎B086ML4XSB",
+      "Item Model Number": "‎BX8070110700K",
+      "Date First Available": "‎17 June 2020"
+    },
+    "imageUrl": "https://m.media-amazon.com/images/I/71P3chRzgNL._AC_SY450_.jpg",
+    "amazonLink": "https://www.amazon.com.au/dp/B086ML4XSB"
+  },
+  {
+    "id": "cpu2",
+    "name": "Intel Core i5-12600KF",
+    "price": "$268.37",
+    "details": {
+      "Processor": "‎4.9 core_i5"
+    },
+    "imageUrl": "https://m.media-amazon.com/images/I/51ldM0r7NML._AC_SY355_.jpg",
+    "amazonLink": "https://www.amazon.com.au/dp/B09FXFJW2F"
+  }
+]
