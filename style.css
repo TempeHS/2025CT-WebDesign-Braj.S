@@ -1,10 +1,16 @@
+.carousel-inner {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.carousel-item {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
 .card {
-            background-color: #1a1a1a;
-            color: #ffffff;
-        }
-        .card-title {
-            font-size: 1.5rem;
-        }
-        .card-text {
-            font-size: 1rem;
-        }
+    width: 18rem;
+    flex: 0 0 auto;
+    margin-right: 15px;
+}
