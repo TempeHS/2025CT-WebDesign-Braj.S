@@ -13,5 +13,4 @@
 .card {
     flex: 0 0 auto;
     margin-right: 15px;
-    transition: transform 0.5s ease-in-out;
 }

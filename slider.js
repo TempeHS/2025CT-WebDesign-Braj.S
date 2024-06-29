@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         const newTransform = -itemWidth * currentIndex;
+        carouselInner.style.transition = 'transform 0.5s ease-in-out';
         carouselInner.style.transform = `translateX(${newTransform}px)`;
     };
 
@@ -41,6 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     window.addEventListener('resize', () => {
         currentIndex = 0;
+        carouselInner.style.transition = 'none';
         carouselInner.style.transform = 'translateX(0px)';
     });
 });
