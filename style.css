@@ -56,7 +56,7 @@
     display: flex;
       flex-direction: column; /* Ensure vertical alignment */
       justify-content: center; /* Center content vertically */
-    background-color: #383F45;
+    background-color: #4F5961;
     height: 100%;
     }
     .img-box img {
