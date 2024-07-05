@@ -31,13 +31,48 @@
 }
 
 .something {
-    background-image: ;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #383F45;
 }
 
 .gif{
     padding-top: 100px;
     padding-bottom: 100px;
     max-width: fit-content;
-    margin-left: auto;
     margin-right:auto;
+    margin-left:auto;
 }
+.rounded-corners-left {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    }
+    .rounded-corners-right {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    }
+    .text-box {
+    padding: 15px;
+    display: flex;
+      flex-direction: column; /* Ensure vertical alignment */
+      justify-content: center; /* Center content vertically */
+    background-color: #383F45;
+    height: 100%;
+    }
+    .img-box img {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 100%;
+      object-fit: cover; /* Ensures the image covers the entire container */
+    }
+    .row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    }
+    .col-no-padding {
+    padding-right: 0;
+    padding-left: 0;
+    }
+    .fill-height {
+    height: 100%;
+    }
