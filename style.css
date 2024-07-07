@@ -30,7 +30,7 @@
     background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fposts%2Fjeff-henderson-04b57317b_drake-goat-helpdesk-activity-6973462809040883712-DEQJ&psig=AOvVaw32T5alTEYGkXtvb8liZZck&ust=1720139343373000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCNDupMaQjIcDFQAAAAAdAAAAABAE)
 }
 
-.something {
+.BackgroundLightGray {
     margin-top: 100px;
     margin-bottom: 100px;
     background-color: #383F45;
@@ -54,8 +54,8 @@
     .text-box {
     padding: 15px;
     display: flex;
-      flex-direction: column; /* Ensure vertical alignment */
-      justify-content: center; /* Center content vertically */
+    flex-direction: column;
+    justify-content: center;
     background-color: #4F5961;
     height: 100%;
     }
@@ -63,7 +63,7 @@
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     height: 100%;
-      object-fit: cover; /* Ensures the image covers the entire container */
+    object-fit: cover; 
     }
     .row.no-gutters {
     margin-right: 0;
@@ -72,7 +72,4 @@
     .col-no-padding {
     padding-right: 0;
     padding-left: 0;
-    }
-    .fill-height {
-    height: 100%;
     }
