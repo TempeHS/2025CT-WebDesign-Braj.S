@@ -43,33 +43,39 @@
     margin-right:auto;
     margin-left:auto;
 }
+
 .rounded-corners-left {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    }
-    .rounded-corners-right {
+}
+
+.rounded-corners-right {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    }
-    .text-box {
+}
+
+.text-box {
     padding: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: #4F5961;
     height: 100%;
-    }
-    .img-box img {
+}
+
+.img-box img {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     height: 100%;
     object-fit: cover; 
-    }
-    .row.no-gutters {
+}
+
+.row.no-gutters {
     margin-right: 0;
     margin-left: 0;
-    }
-    .col-no-padding {
+}
+
+.col-no-padding {
     padding-right: 0;
     padding-left: 0;
-    }
+}
