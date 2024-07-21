@@ -16,10 +16,29 @@
 }
 
 .component {
-    max-width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
+
+.component-name {
+    font-weight: bold;
+}
+
+button {
+    background-color: blue;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
 
 .info {
     height: 200;
