@@ -1,0 +1,92 @@
+[
+  {
+    "id": "cpu-cooler1",
+    "name": "Cooler Master Hyper 212",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B07H22TC1T"
+  },
+  {
+    "id": "cpu-cooler2",
+    "name": "Noctua NH-D15",
+    "price": "$189.00",
+    "details": {
+      "Brand": "‎Noctua",
+      "Series": "‎NH-D15",
+      "Item Model Number": "‎NH-D15",
+      "Product dimensions": "‎23.5 x 27.94 x 19.05 cm; 1.3 kg",
+      "Item Dimensions L x W x H": "‎23.5 x 27.9 x 19.1 centimetres",
+      "Colour": "‎Brown",
+      "Computer Memory Type": "‎Unknown",
+      "Voltage": "‎12 Volts",
+      "Batteries": "‎Unknown batteries required.",
+      "Item Weight": "‎1.3 kg",
+      "Manufacturer": "‎Noctua",
+      "ASIN": "‎B00L7UZMAK",
+      "Is discontinued by manufacturer": "‎No",
+      "Date First Available": "‎30 November 2017"
+    },
+    "imageUrl": "https://m.media-amazon.com/images/I/91Hw1zcAIjL._AC_SX355_.jpg",
+    "amazonLink": "https://www.amazon.com.au/dp/B00L7UZMAK"
+  },
+  {
+    "id": "cpu-cooler3",
+    "name": "Corsair H100i RGB",
+    "price": "$189.00",
+    "details": {
+      "Brand": "‎Corsair",
+      "Item Model Number": "‎CW-9060033-WW",
+      "Product dimensions": "‎27.61 x 11.99 x 42.7 cm; 743.89 Grams",
+      "Item Dimensions L x W x H": "‎27.6 x 12 x 42.7 centimetres",
+      "Colour": "‎Black",
+      "Number of processors": "‎1",
+      "Computer Memory Type": "‎PC1066",
+      "Voltage": "‎12 Volts",
+      "Item Weight": "‎744 g",
+      "Manufacturer": "‎Corsair AU",
+      "ASIN": "‎B07BWNWQKJ",
+      "Is discontinued by manufacturer": "‎No",
+      "Date First Available": "‎3 August 2022"
+    },
+    "imageUrl": "https://m.media-amazon.com/images/I/71UUKDJ1wsL._AC_SX355_.jpg",
+    "amazonLink": "https://www.amazon.com.au/dp/B07BWNWQKJ"
+  },
+  {
+    "id": "cpu-cooler4",
+    "name": "be quiet! Dark Rock Pro 4",
+    "price": "$315.47",
+    "details": {},
+    "imageUrl": "https://m.media-amazon.com/images/I/61CGQH59UGL._SX342_.jpg",
+    "amazonLink": "https://www.amazon.com.au/dp/B07BY6F8D9"
+  },
+  {
+    "id": "cpu-cooler5",
+    "name": "NZXT Kraken X63",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B082LTL6RQ"
+  },
+  {
+    "id": "cpu-cooler6",
+    "name": "Arctic Freezer 34 eSports",
+    "price": "$150.99",
+    "details": {
+      "Brand": "‎ARCTIC",
+      "Series": "‎Freezer 34 eSports DUO Edition",
+      "Item Model Number": "‎ACFRE00060A",
+      "Product dimensions": "‎19 x 13 x 11 cm; 764 Grams",
+      "Item Dimensions L x W x H": "‎19 x 13 x 11 centimetres",
+      "Colour": "‎Red",
+      "Voltage": "‎12 Volts",
+      "Item Weight": "‎764 g",
+      "Manufacturer": "‎ARCTIC",
+      "ASIN": "‎B07MC8CRVZ",
+      "Is discontinued by manufacturer": "‎No",
+      "Date First Available": "‎10 January 2019"
+    },
+    "imageUrl": "https://m.media-amazon.com/images/I/61xvnsnyQvL._AC_SY355_.jpg",
+    "amazonLink": "https://www.amazon.com.au/dp/B07MC8CRVZ"
+  }
+]

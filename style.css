@@ -15,17 +15,6 @@
     margin-right: 15px;
 }
 
-.component {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-}
-
-.component-name {
-    font-weight: bold;
-}
-
 button {
     background-color: blue;
     color: #fff;
@@ -37,16 +26,6 @@ button {
 
 button:hover {
     background-color: darkblue;
-}
-
-
-.info {
-    height: 200;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fposts%2Fjeff-henderson-04b57317b_drake-goat-helpdesk-activity-6973462809040883712-DEQJ&psig=AOvVaw32T5alTEYGkXtvb8liZZck&ust=1720139343373000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCNDupMaQjIcDFQAAAAAdAAAAABAE)
 }
 
 .BackgroundLightGray {
@@ -158,3 +137,127 @@ button:hover {
     color: #bbb;
 }
 
+.list-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+.component {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.component-img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.component-name {
+    flex-grow: 1;
+    font-size: 18px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.amazon-btn img {
+    width: 50px;
+    height: auto;
+}
+
+.amazon-btn {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.form-check-input {
+    cursor: pointer;
+}
+
+.form-check-label {
+    margin-left: 5px;
+    color: #fff;
+}
+
+.component-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.component-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: box-shadow 0.3s;
+}
+
+.component-item:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.component-img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.component-name {
+    flex-grow: 1;
+    font-size: 18px;
+}
+
+.component-price {
+    margin-left: auto;
+    font-size: 16px;
+    color: #28a745;
+}
+
+.component-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.component-buttons button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.component-buttons button:hover {
+    background-color: #0056b3;
+}
+
+.component-buttons .amazon-btn img {
+    width: 30px;
+}

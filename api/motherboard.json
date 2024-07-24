@@ -1,0 +1,64 @@
+[
+  {
+    "id": "motherboard1",
+    "name": "ASUS ROG Strix Z590-E",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B08S7DCJ4V"
+  },
+  {
+    "id": "motherboard2",
+    "name": "MSI MPG Z490 Gaming Edge",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B0899T6KZ7"
+  },
+  {
+    "id": "motherboard3",
+    "name": "Gigabyte B450M DS3H",
+    "price": "$137.61",
+    "details": {
+      "Memory Speed": "‎3600 MHz",
+      "Number of USB 2.0 Ports": "‎4"
+    },
+    "imageUrl": "https://m.media-amazon.com/images/I/619oLf666DL._AC_SY355_.jpg",
+    "amazonLink": "https://www.amazon.com.au/dp/B07FKNM8FQ"
+  },
+  {
+    "id": "motherboard4",
+    "name": "ASRock B450M Pro4",
+    "price": "$249.64",
+    "details": {
+      "RAM": "‎2 GB DDR4",
+      "Memory Speed": "‎2400 MHz",
+      "Wireless Type": "‎802.11a",
+      "Number of USB 2.0 Ports": "‎2"
+    },
+    "imageUrl": "https://m.media-amazon.com/images/I/717fM36M3sL._AC_SX355_.jpg",
+    "amazonLink": "https://www.amazon.com.au/dp/B07FVYKFXF"
+  },
+  {
+    "id": "motherboard5",
+    "name": "MSI MAG B550 Tomahawk",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B089QXJH8H"
+  },
+  {
+    "id": "motherboard6",
+    "name": "ASUS Prime X570-Pro",
+    "price": "$717.03",
+    "details": {
+      "Processor": "‎2133 others",
+      "RAM": "‎DIMM",
+      "Memory Speed": "‎2133 MHz",
+      "Wireless Type": "‎Bluetooth",
+      "Number of USB 2.0 Ports": "‎2"
+    },
+    "imageUrl": "https://m.media-amazon.com/images/I/61sMdFmT1XL._AC_SY355_.jpg",
+    "amazonLink": "https://www.amazon.com.au/dp/B07SW8DQVL"
+  }
+]

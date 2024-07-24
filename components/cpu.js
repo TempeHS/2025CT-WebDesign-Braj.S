@@ -4,8 +4,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function fetchCPUs() {
     fetch('/api/cpu.json')
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
         .then(displayCPUs)
+        .catch(error => console.error('Error fetching CPUs:', error));
 }
 
 function displayCPUs(cpus) {
@@ -34,6 +40,7 @@ function selectCPU(cpuId, cpuName, cpuPrice, cpuImageUrl, cpuAmazonLink) {
         imageUrl: cpuImageUrl,
         amazonLink: cpuAmazonLink
     };
-    localStorage.setItem('selectedCPU', JSON.stringify(cpuDetails));
+    localStorage.setItem('selectedCpu', JSON.stringify(cpuDetails));
     alert(`You have selected CPU: ${cpuName}`);
+    window.location.href = '/build.html';
 }

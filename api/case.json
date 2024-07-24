@@ -1,0 +1,55 @@
+[
+  {
+    "id": "case1",
+    "name": "NZXT H510",
+    "price": "$325.01",
+    "details": {
+      "Number of USB 2.0 Ports": "‎1"
+    },
+    "imageUrl": "https://m.media-amazon.com/images/I/51oclTFjIFL._AC_SY355_.jpg",
+    "amazonLink": "https://www.amazon.com.au/dp/B07TC76671"
+  },
+  {
+    "id": "case2",
+    "name": "Corsair 4000D",
+    "price": "$141.00",
+    "details": {
+      "Wireless Type": "‎802.11a",
+      "Number of USB 3.0 Ports": "‎1"
+    },
+    "imageUrl": "https://m.media-amazon.com/images/I/81hL4tPkXZL._AC_SY355_.jpg",
+    "amazonLink": "https://www.amazon.com.au/dp/B08C7BGV3D"
+  },
+  {
+    "id": "case3",
+    "name": "Fractal Design Meshify C",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B07GHDTN2R"
+  },
+  {
+    "id": "case4",
+    "name": "Phanteks Eclipse P300A",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B08CBQ9Y96"
+  },
+  {
+    "id": "case5",
+    "name": "Lian Li PC-O11 Dynamic",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B07ZV1ZQ7D"
+  },
+  {
+    "id": "case6",
+    "name": "Cooler Master MasterBox Q300L",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B079K2H8GS"
+  }
+]

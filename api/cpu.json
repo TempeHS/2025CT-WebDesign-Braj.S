@@ -2,32 +2,9 @@
   {
     "id": "cpu1",
     "name": "Intel Core i7-10700K",
-    "price": "$528.82",
+    "price": "$500.06",
     "details": {
-      "Brand": "Intel",
-      "Manufacturer": "‎Intel",
-      "Model": "‎BX8070110700K",
-      "Model Name": "‎i7",
-      "Part Number": "‎BX8070110700K",
-      "Processor Brand": "‎Intel",
-      "Processor Speed": "‎3.8 GHz",
-      "Processor Type": "‎Intel Core i7",
-      "Processor Count": "‎8",
-      "Processor Socket": "‎LGA 1200",
-      "Processor model number": "‎99A0V7",
-      "Compatible Devices": "‎PC",
-      "Number of items": "‎1",
-      "Wattage": "‎125 watts",
-      "Batteries Included": "‎No",
-      "Batteries Required": "‎No",
-      "Does it contain liquid?": "‎No",
-      "Has Auto Focus": "‎No",
-      "Has Programmable Buttons": "‎No",
-      "Product dimensions": "‎18 x 16 x 10 cm; 45.36 Grams",
-      "Item Weight": "‎45.4 g",
-      "ASIN": "‎B086ML4XSB",
-      "Item Model Number": "‎BX8070110700K",
-      "Date First Available": "‎17 June 2020"
+      "Processor": "‎3.8 GHz apple_ci7"
     },
     "imageUrl": "https://m.media-amazon.com/images/I/71P3chRzgNL._AC_SY450_.jpg",
     "amazonLink": "https://www.amazon.com.au/dp/B086ML4XSB"
@@ -35,11 +12,84 @@
   {
     "id": "cpu2",
     "name": "Intel Core i5-12600KF",
-    "price": "$268.37",
+    "price": "$265.52",
     "details": {
       "Processor": "‎4.9 core_i5"
     },
     "imageUrl": "https://m.media-amazon.com/images/I/51ldM0r7NML._AC_SY355_.jpg",
     "amazonLink": "https://www.amazon.com.au/dp/B09FXFJW2F"
+  },
+  {
+    "id": "cpu3",
+    "name": "AMD Ryzen 7 5800X",
+    "price": "$308.06",
+    "details": {
+      "Processor": "‎4.7 GHz ryzen_7"
+    },
+    "imageUrl": "https://m.media-amazon.com/images/I/61IIbwz-+ML._AC_SX355_.jpg",
+    "amazonLink": "https://www.amazon.com.au/dp/B0815XFSGK"
+  },
+  {
+    "id": "cpu4",
+    "name": "Intel Core i9-11900K",
+    "price": "Currently unavailable.",
+    "details": {
+      "Max Screen Resolution": "‎7680 x 4320 Pixels",
+      "Memory Speed": "‎14000 MHz",
+      "Graphics Coprocessor": "‎NVIDIA GeForce RTX 3070",
+      "Chipset Brand": "‎NVIDIA",
+      "Card Description": "‎Dedicated",
+      "Graphics Card Ram Size": "‎8 GB"
+    },
+    "imageUrl": "https://m.media-amazon.com/images/I/71oheR1WsxL._AC_SY355_.jpg",
+    "amazonLink": "https://www.amazon.com.au/dp/B08KHL21CV"
+  },
+  {
+    "id": "cpu5",
+    "name": "AMD Ryzen 5 5600X",
+    "price": "$209.00",
+    "details": {
+      "Brand": "‎AMD",
+      "Manufacturer": "‎AMD",
+      "Model": "‎AMD Ryzen 5 5600X",
+      "Model Name": "‎Ryzen",
+      "Part Number": "‎100-100000065BOX",
+      "Computer Memory Type": "‎DIMM",
+      "Processor Brand": "‎AMD",
+      "Processor Speed": "‎4.6 GHz",
+      "Processor Type": "‎Ryzen 5",
+      "Processor Count": "‎6",
+      "Processor Socket": "‎Socket AM4",
+      "Processor model number": "‎5600X",
+      "Graphics Card Interface": "‎PCI Express",
+      "Compatible Devices": "‎PC",
+      "Number of items": "‎1",
+      "Standing screen display size": "‎8 Inches",
+      "Wattage": "‎65 watts",
+      "Power Source": "‎AC",
+      "Batteries Included": "‎No",
+      "Batteries Required": "‎No",
+      "Material Type": "‎cotton",
+      "Does it contain liquid?": "‎No",
+      "Product dimensions": "‎4 x 4 x 0.6 cm; 79.38 Grams",
+      "Item Weight": "‎79.2 g",
+      "ASIN": "‎B08166SLDF",
+      "Item Model Number": "‎AMD Ryzen 5 5600X",
+      "Batteries": "‎1 Lithium Ion batteries required.",
+      "Is discontinued by manufacturer": "‎No",
+      "Date First Available": "‎3 August 2022"
+    },
+    "imageUrl": "https://m.media-amazon.com/images/I/51ld6RR8IrL._AC_SY550_.jpg",
+    "amazonLink": "https://www.amazon.com.au/dp/B08166SLDF"
+  },
+  {
+    "id": "cpu6",
+    "name": "Intel Core i3-10100",
+    "price": "$248.88",
+    "details": {
+      "Processor": "‎2.9 GHz apple_ci5"
+    },
+    "imageUrl": "https://m.media-amazon.com/images/I/81eoV5SY8RL._AC_SY355_.jpg",
+    "amazonLink": "https://www.amazon.com.au/dp/B086MHSTWN"
   }
 ]

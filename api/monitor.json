@@ -1,0 +1,61 @@
+[
+  {
+    "id": "monitor1",
+    "name": "ASUS ROG Swift PG279Q",
+    "price": "$416.46",
+    "details": {
+      "Standing screen display size": "‎27 Inches",
+      "Screen Resolution": "‎2560x1440",
+      "Max Screen Resolution": "‎2560 x 1440 Pixels",
+      "Number of USB 2.0 Ports": "‎2"
+    },
+    "imageUrl": "https://m.media-amazon.com/images/I/51b6iSblA2L._AC_SY355_.jpg",
+    "amazonLink": "https://www.amazon.com.au/dp/B017EVR2VM"
+  },
+  {
+    "id": "monitor2",
+    "name": "Dell UltraSharp U2720Q",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B07YFG6HZV"
+  },
+  {
+    "id": "monitor3",
+    "name": "LG 27GL850-B",
+    "price": "$417.00",
+    "details": {
+      "Standing screen display size": "‎27 Inches"
+    },
+    "imageUrl": "https://m.media-amazon.com/images/I/7166tFSuGBL._AC_SX355_.jpg",
+    "amazonLink": "https://www.amazon.com.au/dp/B07TD94TQF"
+  },
+  {
+    "id": "monitor4",
+    "name": "Samsung Odyssey G7",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B08FF3TTZ9"
+  },
+  {
+    "id": "monitor5",
+    "name": "Acer Predator XB271HU",
+    "price": "$416.46",
+    "details": {
+      "Standing screen display size": "‎27 Inches",
+      "Screen Resolution": "‎2560x1440",
+      "Max Screen Resolution": "‎2560 x 1440 WQHD"
+    },
+    "imageUrl": "https://m.media-amazon.com/images/I/51UuPQufFCL._AC_SY355_.jpg",
+    "amazonLink": "https://www.amazon.com.au/dp/B0173PEX20"
+  },
+  {
+    "id": "monitor6",
+    "name": "BenQ EX2780Q",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B07Y6BPJ97"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "gpu1",
+    "name": "NVIDIA RTX 3080",
+    "price": "$750.79",
+    "details": {
+      "Brand": "‎ASUS",
+      "Model": "‎TUF-RTX3080-O10G-V2-GAMING",
+      "Part Number": "‎TUF-RTX3080-O10G-V2-GAMING",
+      "Hardware Interface": "‎PCI Express x4",
+      "Graphics Card Interface": "‎PCI-Express x16",
+      "Graphics Coprocessor": "‎NVIDIA GeForce RTX 3080",
+      "Compatible Devices": "‎Desktop",
+      "Video output interface": "‎DisplayPort, HDMI",
+      "Batteries Included": "‎No",
+      "Batteries Required": "‎No",
+      "Package Dimensions": "‎40.4 x 23.6 x 9.2 cm; 2 kg",
+      "Item Weight": "‎2 kg",
+      "ASIN": "‎B09BMLJS3W",
+      "Item Model Number": "‎TUF-RTX3080-O10G-V2-GAMING",
+      "Date First Available": "‎18 August 2021"
+    },
+    "imageUrl": "https://m.media-amazon.com/images/I/51r3C9s3cML._AC_SY355_.jpg",
+    "amazonLink": "https://www.amazon.com.au/dp/B09BMLJS3W"
+  },
+  {
+    "id": "gpu2",
+    "name": "AMD Radeon RX 6800 XT",
+    "price": "$2,114.84",
+    "details": {
+      "Memory Speed": "‎16 GHz",
+      "Graphics Coprocessor": "‎AMD Radeon RX 6800 XT",
+      "Chipset Brand": "‎AMD",
+      "Card Description": "‎AMD",
+      "Graphics Card Ram Size": "‎16 GB"
+    },
+    "imageUrl": "https://m.media-amazon.com/images/I/81lEaN6HGvL._AC_SX355_.jpg",
+    "amazonLink": "https://www.amazon.com.au/dp/B08NXXT7WN"
+  },
+  {
+    "id": "gpu3",
+    "name": "NVIDIA RTX 3070",
+    "price": "$2,574.19",
+    "details": {
+      "Memory Speed": "‎1.71 GHz",
+      "Graphics Coprocessor": "‎NVIDIA GeForce RTX 3080",
+      "Chipset Brand": "‎NVIDIA",
+      "Graphics Card Ram Size": "‎10 GB"
+    },
+    "imageUrl": "https://m.media-amazon.com/images/I/81ykSv-391L._AC_SX355_.jpg",
+    "amazonLink": "https://www.amazon.com.au/dp/B08HR5SXPS"
+  },
+  {
+    "id": "gpu4",
+    "name": "AMD Radeon RX 6700 XT",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B08YK2YS3R"
+  },
+  {
+    "id": "gpu5",
+    "name": "NVIDIA RTX 3060 Ti",
+    "price": "Currently unavailable.",
+    "details": {
+      "Memory Speed": "‎40000 MHz",
+      "Graphics Coprocessor": "‎NVIDIA GeForce RTX 3060 Ti",
+      "Chipset Brand": "‎NVIDIA",
+      "Graphics Card Ram Size": "‎8 GB"
+    },
+    "imageUrl": "https://m.media-amazon.com/images/I/81XXYxqjP2L._AC_SX355_.jpg",
+    "amazonLink": "https://www.amazon.com.au/dp/B08P2D1JZZ"
+  },
+  {
+    "id": "gpu6",
+    "name": "AMD Radeon RX 5700 XT",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B07V39QGL7"
+  }
+]

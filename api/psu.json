@@ -1,0 +1,50 @@
+[
+  {
+    "id": "psu1",
+    "name": "Corsair RM750x",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B07RF237B5"
+  },
+  {
+    "id": "psu2",
+    "name": "EVGA SuperNOVA 750 G5",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B07W6RX39C"
+  },
+  {
+    "id": "psu3",
+    "name": "Seasonic Focus GX-750",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B07Z3P9DWK"
+  },
+  {
+    "id": "psu4",
+    "name": "Cooler Master MWE Gold 750",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B08L8L8Z7H"
+  },
+  {
+    "id": "psu5",
+    "name": "Thermaltake Toughpower GF1 750W",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B07NHRHYN7"
+  },
+  {
+    "id": "psu6",
+    "name": "NZXT C750",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B08626M7BC"
+  }
+]

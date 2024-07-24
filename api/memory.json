@@ -1,0 +1,55 @@
+[
+  {
+    "id": "memory1",
+    "name": "Corsair Vengeance LPX 16GB",
+    "price": "$59.00",
+    "details": {
+      "RAM": "‎16 GB DDR4",
+      "Memory Speed": "‎3200 MHz"
+    },
+    "imageUrl": "https://m.media-amazon.com/images/I/51GPeuC8YtL._AC_SX355_.jpg",
+    "amazonLink": "https://www.amazon.com.au/dp/B0143UM4TC"
+  },
+  {
+    "id": "memory2",
+    "name": "G.Skill Ripjaws V 16GB",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B0171GQ3WC"
+  },
+  {
+    "id": "memory3",
+    "name": "Kingston HyperX Fury 16GB",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B01N7RFPHD"
+  },
+  {
+    "id": "memory4",
+    "name": "Crucial Ballistix 16GB",
+    "price": "$149.24",
+    "details": {
+      "RAM": "‎16 GB DDR4"
+    },
+    "imageUrl": "https://m.media-amazon.com/images/I/61gZr-hI6lL._AC_SY355_.jpg",
+    "amazonLink": "https://www.amazon.com.au/dp/B083V93HJG"
+  },
+  {
+    "id": "memory5",
+    "name": "Patriot Viper Steel 16GB",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B07JQ7VJH8"
+  },
+  {
+    "id": "memory6",
+    "name": "TeamGroup T-Force Delta RGB 16GB",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B07LGF3JTB"
+  }
+]

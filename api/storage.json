@@ -1,0 +1,61 @@
+[
+  {
+    "id": "storage1",
+    "name": "Samsung 970 Evo 1TB",
+    "price": "$212.66",
+    "details": {
+      "RAM": "‎500 GB",
+      "Hard Drive": "‎500 GB Solid State Hard Drive"
+    },
+    "imageUrl": "https://m.media-amazon.com/images/I/81ABwgAl-gL._AC_SX355_.jpg",
+    "amazonLink": "https://www.amazon.com.au/dp/B07BN4NJ2J"
+  },
+  {
+    "id": "storage2",
+    "name": "Western Digital Blue 1TB",
+    "price": "$216.72",
+    "details": {
+      "RAM": "‎1 TB",
+      "Hard Drive": "‎1000 GB Solid State Drive",
+      "Wireless Type": "‎Radio Frequency"
+    },
+    "imageUrl": "https://m.media-amazon.com/images/I/71QygIvKzfL._AC_SY355_.jpg",
+    "amazonLink": "https://www.amazon.com.au/dp/B073SBQMCX"
+  },
+  {
+    "id": "storage3",
+    "name": "Crucial MX500 1TB",
+    "price": "$103.59",
+    "details": {
+      "Hard Drive": "‎500 GB Solid State Drive"
+    },
+    "imageUrl": "https://m.media-amazon.com/images/I/710m2zaoSeL._AC_SX355_.jpg",
+    "amazonLink": "https://www.amazon.com.au/dp/B0784SLQM6"
+  },
+  {
+    "id": "storage4",
+    "name": "Seagate Barracuda 2TB",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B07H289S5K"
+  },
+  {
+    "id": "storage5",
+    "name": "Kingston A2000 1TB",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B07VXC3NRN"
+  },
+  {
+    "id": "storage6",
+    "name": "ADATA XPG SX8200 Pro 1TB",
+    "price": "$114.23",
+    "details": {
+      "Hard Drive": "‎512 GB Solid State Hard Drive"
+    },
+    "imageUrl": "https://m.media-amazon.com/images/I/81aFfxApfML._AC_SY355_.jpg",
+    "amazonLink": "https://www.amazon.com.au/dp/B07K1HMMJC"
+  }
+]

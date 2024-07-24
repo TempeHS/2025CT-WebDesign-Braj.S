@@ -4,11 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>PC Part Builder</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <!--START TOP NAVIGATION-->
+</head>
+
+<body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="/index.html"><img src="/images/logo.png" alt="PCPARTPICKER" height="60"></a>
@@ -20,27 +22,25 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="build.html">Build</a>
+                        <a class="nav-link active" aria-current="page" href="/build.html">Build</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Link</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a>
+                            aria-expanded="false">Dropdown</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">CPU</a></li>
-                            <li><a class="dropdown-item" href="#">CPU Cooler</a></li>
-                            <li><a class="dropdown-item" href="#">Motherboard</a></li>
-                            <li><a class="dropdown-item" href="#">Memory</a></li>
-                            <li><a class="dropdown-item" href="#">Storage</a></li>
-                            <li><a class="dropdown-item" href="#">GPU</a></li>
-                            <li><a class="dropdown-item" href="#">Case</a></li>
-                            <li><a class="dropdown-item" href="#">Power Supply</a></li>
-                            <li><a class="dropdown-item" href="#">Operating System</a></li>
-                            <li><a class="dropdown-item" href="#">Monitor</a></li>
+                            <li><a class="dropdown-item" href="/components/cpu.html">CPU</a></li>
+                            <li><a class="dropdown-item" href="/components/cpu-cooler.html">CPU Cooler</a></li>
+                            <li><a class="dropdown-item" href="/components/motherboard.html">Motherboard</a></li>
+                            <li><a class="dropdown-item" href="/components/memory.html">Memory</a></li>
+                            <li><a class="dropdown-item" href="/components/storage.html">Storage</a></li>
+                            <li><a class="dropdown-item" href="/components/gpu.html">GPU</a></li>
+                            <li><a class="dropdown-item" href="/components/case.html">Case</a></li>
+                            <li><a class="dropdown-item" href="/components/psu.html">Power Supply</a></li>
+                            <li><a class="dropdown-item" href="/components/os.html">Operating System</a></li>
+                            <li><a class="dropdown-item" href="/components/monitor.html">Monitor</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
@@ -58,85 +58,125 @@
             </div>
         </div>
     </nav>
-    <!--END TOP NAVIGATION-->
 
-
-    <!--START CPU COMPONENT-->
     <ul class="list-group list-group-flush">
         <li class="list-group-item">
             <div class="component" id="cpu">
+                <img id="cpu-img" class="component-img" alt="CPU Image"
+                    style="width: 50px; height: auto; margin-right: 10px;">
                 <span class="component-name">CPU - <span id="cpu-name">None selected</span></span>
-                <button onclick="window.location.href='components/cpu.html'">Select</button>
-            </div>
-        </li>
-        <!--END CPU COMPONENT-->
-
-        <!--START CPU COOLER COMPONENT-->
-        <li class="list-group-item">
-            <div class="component" id="cpu-cooler">
-                <span class="component-name">CPU Cooler- <span id="cpu-cooler-name">None selected</span></span>
-                <button onclick="window.location.href='components/cpu-cooler.html'">Select</button>
-            </div>
-        </li>
-        <!--END CPU COOLER COMPONENT-->
-
-        <li class="list-group-item">
-            <div class="component" id="cpu-cooler">
-                <span class="component-name">Motherboard- <span id="cpu-cooler-name">None selected</span></span>
-                <button onclick="window.location.href='components/cpu-cooler.html'">Select</button>
+                <span id="cpu-price"></span>
+                <button id="cpu-amazon-btn" class="amazon-btn"><img src="/images/amazon-logo.png" alt="Amazon"
+                        style="width: 50px;"></button>
+                <button onclick="window.location.href='/components/cpu.html'">Select</button>
             </div>
         </li>
         <li class="list-group-item">
-            <div class="component" id="cpu-cooler">
-                <span class="component-name">Memory- <span id="cpu-cooler-name">None selected</span></span>
-                <button onclick="window.location.href='components/cpu-cooler.html'">Select</button>
+            <div class="component" id="cpuCooler">
+                <img id="cpuCooler-img" class="component-img" alt="CPU Cooler Image"
+                    style="width: 50px; height: auto; margin-right: 10px;">
+                <span class="component-name">CPU Cooler - <span id="cpuCooler-name">None selected</span></span>
+                <span id="cpuCooler-price"></span>
+                <button id="cpuCooler-amazon-btn" class="amazon-btn"><img src="/images/amazon-logo.png" alt="Amazon"
+                        style="width: 50px;"></button>
+                <button onclick="window.location.href='/components/cpu-cooler.html'">Select</button>
             </div>
         </li>
         <li class="list-group-item">
-            <div class="component" id="cpu-cooler">
-                <span class="component-name">Storage- <span id="cpu-cooler-name">None selected</span></span>
-                <button onclick="window.location.href='components/cpu-cooler.html'">Select</button>
+            <div class="component" id="motherboard">
+                <img id="motherboard-img" class="component-img" alt="Motherboard Image"
+                    style="width: 50px; height: auto; margin-right: 10px;">
+                <span class="component-name">Motherboard - <span id="motherboard-name">None selected</span></span>
+                <span id="motherboard-price"></span>
+                <button id="motherboard-amazon-btn" class="amazon-btn"><img src="/images/amazon-logo.png" alt="Amazon"
+                        style="width: 50px;"></button>
+                <button onclick="window.location.href='/components/motherboard.html'">Select</button>
             </div>
         </li>
         <li class="list-group-item">
-            <div class="component" id="cpu-cooler">
-                <span class="component-name">Video Card- <span id="cpu-cooler-name">None selected</span></span>
-                <button onclick="window.location.href='components/cpu-cooler.html'">Select</button>
+            <div class="component" id="memory">
+                <img id="memory-img" class="component-img" alt="Memory Image"
+                    style="width: 50px; height: auto; margin-right: 10px;">
+                <span class="component-name">Memory - <span id="memory-name">None selected</span></span>
+                <span id="memory-price"></span>
+                <button id="memory-amazon-btn" class="amazon-btn"><img src="/images/amazon-logo.png" alt="Amazon"
+                        style="width: 50px;"></button>
+                <button onclick="window.location.href='/components/memory.html'">Select</button>
             </div>
         </li>
         <li class="list-group-item">
-            <div class="component" id="cpu-cooler">
-                <span class="component-name">Case- <span id="cpu-cooler-name">None selected</span></span>
-                <button onclick="window.location.href='components/cpu-cooler.html'">Select</button>
+            <div class="component" id="storage">
+                <img id="storage-img" class="component-img" alt="Storage Image"
+                    style="width: 50px; height: auto; margin-right: 10px;">
+                <span class="component-name">Storage - <span id="storage-name">None selected</span></span>
+                <span id="storage-price"></span>
+                <button id="storage-amazon-btn" class="amazon-btn"><img src="/images/amazon-logo.png" alt="Amazon"
+                        style="width: 50px;"></button>
+                <button onclick="window.location.href='/components/storage.html'">Select</button>
             </div>
         </li>
         <li class="list-group-item">
-            <div class="component" id="cpu-cooler">
-                <span class="component-name">Power Supply- <span id="cpu-cooler-name">None selected</span></span>
-                <button onclick="window.location.href='components/cpu-cooler.html'">Select</button>
+            <div class="component" id="gpu">
+                <img id="gpu-img" class="component-img" alt="GPU Image"
+                    style="width: 50px; height: auto; margin-right: 10px;">
+                <span class="component-name">GPU - <span id="gpu-name">None selected</span></span>
+                <span id="gpu-price"></span>
+                <button id="gpu-amazon-btn" class="amazon-btn"><img src="/images/amazon-logo.png" alt="Amazon"
+                        style="width: 50px;"></button>
+                <button onclick="window.location.href='/components/gpu.html'">Select</button>
             </div>
         </li>
         <li class="list-group-item">
-            <div class="component" id="cpu-cooler">
-                <span class="component-name">Operating System- <span id="cpu-cooler-name">None selected</span></span>
-                <button onclick="window.location.href='components/cpu-cooler.html'">Select</button>
+            <div class="component" id="case">
+                <img id="case-img" class="component-img" alt="Case Image"
+                    style="width: 50px; height: auto; margin-right: 10px;">
+                <span class="component-name">Case - <span id="case-name">None selected</span></span>
+                <span id="case-price"></span>
+                <button id="case-amazon-btn" class="amazon-btn"><img src="/images/amazon-logo.png" alt="Amazon"
+                        style="width: 50px;"></button>
+                <button onclick="window.location.href='/components/case.html'">Select</button>
             </div>
         </li>
         <li class="list-group-item">
-            <div class="component" id="cpu-cooler">
-                <span class="component-name">Monitor- <span id="cpu-cooler-name">None selected</span></span>
-                <button onclick="window.location.href='components/cpu-cooler.html'">Select</button>
+            <div class="component" id="psu">
+                <img id="psu-img" class="component-img" alt="PSU Image"
+                    style="width: 50px; height: auto; margin-right: 10px;">
+                <span class="component-name">Power Supply - <span id="psu-name">None selected</span></span>
+                <span id="psu-price"></span>
+                <button id="psu-amazon-btn" class="amazon-btn"><img src="/images/amazon-logo.png" alt="Amazon"
+                        style="width: 50px;"></button>
+                <button onclick="window.location.href='/components/psu.html'">Select</button>
             </div>
         </li>
-
-
+        <li class="list-group-item">
+            <div class="component" id="os">
+                <img id="os-img" class="component-img" alt="OS Image"
+                    style="width: 50px; height: auto; margin-right: 10px;">
+                <span class="component-name">Operating System - <span id="os-name">None selected</span></span>
+                <span id="os-price"></span>
+                <button id="os-amazon-btn" class="amazon-btn"><img src="/images/amazon-logo.png" alt="Amazon"
+                        style="width: 50px;"></button>
+                <button onclick="window.location.href='/components/os.html'">Select</button>
+            </div>
+        </li>
+        <li class="list-group-item">
+            <div class="component" id="monitor">
+                <img id="monitor-img" class="component-img" alt="Monitor Image"
+                    style="width: 50px; height: auto; margin-right: 10px;">
+                <span class="component-name">Monitor - <span id="monitor-name">None selected</span></span>
+                <span id="monitor-price"></span>
+                <button id="monitor-amazon-btn" class="amazon-btn"><img src="/images/amazon-logo.png" alt="Amazon"
+                        style="width: 50px;"></button>
+                <button onclick="window.location.href='/components/monitor.html'">Select</button>
+            </div>
+        </li>
     </ul>
-    <!--DO NOT EDIT BELOW THIS LINE-->
-    <script src="build.js "></script>
+
+    <script src="build.js"></script>
     <script src="/scripts.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    </body>
+</body>
 
 </html>

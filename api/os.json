@@ -1,0 +1,50 @@
+[
+  {
+    "id": "os1",
+    "name": "Windows 10 Home",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B07YN8J8SR"
+  },
+  {
+    "id": "os2",
+    "name": "Windows 10 Pro",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B07T3RRCSY"
+  },
+  {
+    "id": "os3",
+    "name": "Windows 11 Home",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B09FK9Y8X2"
+  },
+  {
+    "id": "os4",
+    "name": "Windows 11 Pro",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B09FKDTVFC"
+  },
+  {
+    "id": "os5",
+    "name": "Ubuntu 20.04 LTS",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B085FLZ8M9"
+  },
+  {
+    "id": "os6",
+    "name": "Fedora 34",
+    "price": "Failed to fetch",
+    "details": {},
+    "imageUrl": "Image not available",
+    "amazonLink": "https://www.amazon.com.au/dp/B091TRBJBB"
+  }
+]
